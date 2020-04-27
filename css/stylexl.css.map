@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,CAAC;EACN,gBAAgB,EAAE,mCAAmC;CAAG;;AAG5D,AACI,UADM,CACN,SAAS,CAAC;EACN,MAAM,EAAE,KAAK;CAAG;;AAGxB,AACI,MADE,CACF,WAAW,CAAC;EACR,gBAAgB,EAAE,0BAA0B;CAAG;;AAGvD,AACI,QADI,CACJ,WAAW,CAAC;EACR,gBAAgB,EAAE,2BAA2B;CAAG",
+    "sources": [
+        "../sass/stylexl.sass"
+    ],
+    "names": [],
+    "file": "stylexl.css"
+}

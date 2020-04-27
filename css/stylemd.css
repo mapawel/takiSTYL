@@ -1,0 +1,79 @@
+.wrapper h2 {
+  font-size: 3rem;
+}
+
+.hero-img {
+  background-image: url("../img/loft-3762388_1024x1366.jpg");
+}
+
+.hero-txt {
+  padding: 10px 10px;
+  letter-spacing: .2rem;
+}
+
+.hero-txt h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.hero-txt h3 {
+  font-size: 2.5rem;
+}
+
+#portfolio .carousel {
+  height: 500px;
+}
+
+#portfolio .carousel-caption h5 {
+  font-size: 2rem;
+}
+
+#portfolio .carousel-caption p {
+  font-size: 1.2rem;
+}
+
+#offer .col-12 .offer-box .offer-box-head, #offer .col-md-4 .offer-box .offer-box-head {
+  height: 33%;
+  padding-top: 20px;
+}
+
+#offer .col-12 .offer-box .offer-box-middle, #offer .col-md-4 .offer-box .offer-box-middle {
+  height: 47%;
+}
+
+#offer .col-12 .offer-box .offer-box-bottom, #offer .col-md-4 .offer-box .offer-box-bottom {
+  height: 20%;
+}
+
+#offer .offer-box.active, #offer .offer-box:hover {
+  -webkit-box-shadow: 0 0 15px #00677f;
+          box-shadow: 0 0 15px #00677f;
+  -webkit-transform: scale(1.05) translateY(-2%);
+          transform: scale(1.05) translateY(-2%);
+}
+
+#styles .wrapper .styles-hero-container .styles-hero-box .styles-hero-box-bg {
+  bottom: -10%;
+  height: 42%;
+}
+
+#styles .wrapper .styles-hero-container .styles-hero-box .styles-hero-txt {
+  top: 70%;
+  padding: 0 15px;
+}
+
+#contact .styles-img {
+  background-image: url("../img/tool_1280.jpg");
+  background-attachment: fixed;
+  background-position: 0% 100%;
+}
+
+#contact .styles-shadow {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact .wrapper .contact-container {
+  width: 100%;
+  padding: 0 30px;
+}
+/*# sourceMappingURL=stylemd.css.map */

@@ -1,0 +1,30 @@
+.navbar-nav {
+  max-width: none;
+}
+
+.hero-img {
+  background-image: url("../img/loft-3762388_1920.jpg");
+}
+
+.hero-txt {
+  padding: 10px 10px;
+  letter-spacing: .2rem;
+}
+
+.hero-txt h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.hero-txt h3 {
+  font-size: 3.5rem;
+}
+
+#portfolio .carousel {
+  height: 550px;
+}
+
+#contact .styles-img {
+  background-image: url("../img/tool_1280.jpg");
+}
+/*# sourceMappingURL=stylelg.css.map */

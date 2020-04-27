@@ -1,0 +1,16 @@
+.hero-img {
+  background-image: url("../img/loft-3762388_1920.jpg");
+}
+
+#portfolio .carousel {
+  height: 600px;
+}
+
+#offer .styles-img {
+  background-image: url("../img/cra_1920.jpg");
+}
+
+#contact .styles-img {
+  background-image: url("../img/tool_1920.jpg");
+}
+/*# sourceMappingURL=stylexl.css.map */
