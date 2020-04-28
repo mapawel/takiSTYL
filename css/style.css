@@ -94,17 +94,18 @@ h3 {
 }
 
 .nav-shadow {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .show::before {
   content: '';
   position: absolute;
+  top: -2.5px;
   z-index: -1;
-  width: 200px;
-  height: 300px;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, rgba(0, 0, 0, 0.9)), color-stop(95%, rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0) 95%);
+  width: 100vw;
+  height: 360px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(5%, rgba(0, 0, 0, 0.95)), color-stop(90%, rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.95) 5%, rgba(0, 0, 0, 0.95) 90%, rgba(0, 0, 0, 0) 100%);
 }
 
 .navbar-brand {
@@ -408,7 +409,7 @@ h3 {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 #offer .offer-box-underline {
